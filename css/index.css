@@ -139,7 +139,90 @@ body {
 	border: 3px solid red;
 }
 
+nav{
+  flex-wrap: wrap;
+  border:2px solid black;
+  padding:3rems;
+  
+}
+
+.main-header{
+
+  margin-top:3%;;
+  padding:3em;
+  width:40%;
+  border:3px solid green;
+
+}
+
+
+button{
+display:block;
+border: 3px solid blue;
+width:2%;
+padding:1em;
+
+
+}
+.top{
+display:flex;
+justify-content: space-between;
+border:3px solid orange;
+padding:4em;
+
+  
+}
+
+.about-me{
+
+   border:2px solid olive;
+   padding:1em;
+width:40%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.5em;
+}
+
+.skills{
+width:40%;
+  border:2px solid thistle;
+  padding:3em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:1rem;
+
+}
+
+ol{
+padding:4px;
+border:1em solid ;
+
+
+}
+h1{
+
+font-size: 30rems;
+}
+
+h2 { 
+
+  font-size: 1rems;
+}
+
+
+
+
+
+
+
+
 .bottom {
   border: 3px solid purple;
   margin-top:1%;
+}
+
+
+#main-footer{
+text-align:center;
+font-size:1.5em;
+
+
 }
