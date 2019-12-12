@@ -122,7 +122,7 @@ q:after {
 	content: '';
 	content: none;
 }
-table {
+.content table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -135,61 +135,87 @@ body {
 	height: 100%;
 }
 
-.container {
-	border: 3px solid red;
-}
+/* My Code starts here*/
+ nav { 
+float:right;
 
-nav{
-  flex-wrap: wrap;
-  border:2px solid black;
-  padding:3rems;
-  
 }
+ 
+nav a{ margin:1em;
+font-size:1em;
+color:grey;
+text-decoration: none;
 
+}
+ 
+/* main header with an image*/
 .main-header{
+margin-top:3%;
+  padding:1em;
+  width:100%;
+  border:1px solid ;
+  background-color: wheat;
+  
+  font-family:'Roboto Mono', monospace;;
 
-  margin-top:3%;;
-  padding:3em;
-  width:40%;
-  border:3px solid green;
+}
 
+.image-wrapper {
+
+  padding:1em;
 }
 
 
-button{
-display:block;
-border: 3px solid blue;
-width:2%;
-padding:1em;
+#button{
+margin-top:10px;;
+  padding:5px;
+  background-color: #dcdcdc;
+  border: 5px solid #666;
+  color:violet;
+  text-decoration:none;
+  text-transform: uppercase;
 
 
 }
+
+/*Top section after the header: It's about my skills and work experience*/
+/*Skills  and personal interest*/
+
 .top{
 display:flex;
 justify-content: space-between;
-border:3px solid orange;
+
 padding:4em;
 
-  
-}
+  }
 
 .about-me{
 
-   border:2px solid olive;
+ 
    padding:1em;
 width:40%;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 1.5em;
+
 }
 
 .skills{
 width:40%;
-  border:2px solid thistle;
-  padding:3em;
+ 
+  padding:1em;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size:1rem;
+  line-height: 2em;
+  font-family:'Roboto Mono', monospace;
+  
 
 }
+
+li{
+text-decoration: underline;
+
+}
+
 
 ol{
 padding:4px;
@@ -197,32 +223,69 @@ border:1em solid ;
 
 
 }
-h1{
 
-font-size: 30rems;
+
+h1 {
+font-size: 4rem;
 }
 
 h2 { 
 
-  font-size: 1rems;
+  font-size: 2em;
 }
-
-
-
-
-
 
 
 
 .bottom {
-  border: 3px solid purple;
+
   margin-top:1%;
 }
 
 
+#experience {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin:0 3em 0 3em;
+  
+}
+
+#experience td, #experience th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#experience tr:nth-child(even){background-color: #f2f2f2;}
+
+#experience tr:hover {background-color: #ddd;} 
+
+#experience th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: white;
+}
+
+.content h2 {
+margin: 1em;
+
+}
+
 #main-footer{
 text-align:center;
 font-size:1.5em;
+border:.5em solid grey;
 
+}
+
+.container{
+  border:1px solid;
+  background:navajowhite;
+}
+
+.bottom{
+
+border:1px solid;
+background-color:gold;
 
 }
