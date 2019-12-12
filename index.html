@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -9,11 +10,104 @@
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div class="container">
+    <div class="main-header">
+      <header id="Home">
+        <nav>
+          <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+          </div>
+        </nav>
+        <div class="image">
+          <img src="">
+        </div>
+      </header>
+      <div class="main-header">
+        <h1>Adebola M Adesina - Web Dev</h1>
+        <p>I live Technology, it's the way to go.</p>
+        <hr>
+        <p>I'm open to be an intel to learn about this trade,
+          <br>so if there is a opening for a student I definitely <br>interested to gain some experience.</p>
+        <button>Lets Team Up</button>
+      </div>
+      <section id="information">
+        <div class="About Me">
+          <h1>About Me</h1>
+          <p>I'm a 37 years old, father of two.
+            I've always have a thing for technology; <br>complex logic algorithim,statistics and data.<br>This led me to
+            this field which was the beginning of my journey in the <br>world of Web-Dev talking to machines via the
+            language they understood called <strong>"<br>computer programming.</strong><br>I'm still learning and will
+            continue to learn without any ambiguity</p>
+        </div>
+        <div class="Skills">
+          <h2>My Skills</h2>
+          <!--Lists-->
+          <ol>
+            <li>Programming</li>
+            <li>Soccer</li>
+            <li>Team Work</li>
+            <li>Communication</li>
+            <li>Using bootstrap grid</li>
+            <li>Object oriented languages</li>
+            <li>I love football</li>
+          </ol>
+        </div>
+      </section>
+      <section class="experience">
+        <div class="content">
+          <h2>Work History</h2>
+          <table>
+            <tr>
+              <td>Yrs</td>
+              <td>Company</td>
+              <th>Title</th>
+              <th>Tech Used</th>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Apple</td>
+              <td>Tech Department</td>
+              <th>Trouble Shooting</th>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Mentor Network</td>
+              <td>Networking</td>
+              <td>Front Desk I.T</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Amazon</td>
+              <td>Logistic Manager</td>
+            </tr>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <hr>
+      <h2>Contact</h2>
+   <form action="Process.php" method="POST">
+     <label>First Name:</label>
+     <input type="text" name="fisrtName">
+     <label>Last Name:</label>
+     <input type="text" name="lastNamel">
+     <div>
+     <label>Email:</label>
+     <input type="email" name="email">
+    </div>
+     </form>
+    </footer>
+
 </body>
+
 </html>
